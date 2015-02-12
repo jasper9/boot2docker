@@ -1,3 +1,10 @@
+# UPDATE from jasper9
+
+This fork includes a few hard coded changes I didnt know any other way around including:
+
+* using latest Docker binary
+* using a local insecure registry
+
 # Boot2Docker
 
 Boot2Docker is a lightweight Linux distribution made specifically to run
