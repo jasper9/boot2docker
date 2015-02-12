@@ -20,7 +20,7 @@ test -f '/var/lib/boot2docker/profile' && . '/var/lib/boot2docker/profile'
 : ${CERT:="${CERTDIR}cert.pem"}
 : ${KEY:="${CERTDIR}key.pem"}
 
-${DOCKER_REG:="--insecure-registry docker-reg:5000"}
+: ${DOCKER_REG:="--insecure-registry docker-reg:5000"}
 
 start() {
     # Not enabling Docker daemon TLS by default.
